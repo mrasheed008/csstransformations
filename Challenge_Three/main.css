@@ -3,11 +3,12 @@
     background-color: #0997d3;
 	width: 200px;
 	height: 200px; 
-	transform: skewX(0deg);
-	transition: transform;
+	transition-property: transform;
+	transform: translateX(0%);
 	transition-duration: 1s;
 	transition-timing-function: ease-in-out;
+}
 	
 .element:hover{
-    transform: skewX(180deg);
+    transform: translateX(100%);
 }
